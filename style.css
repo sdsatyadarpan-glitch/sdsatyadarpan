@@ -208,11 +208,16 @@ body {
 }
 
 .poem-card {
-  background: var(--white);
+  background: linear-gradient(
+    135deg,
+    #fff8f0 0%,
+    #ffffff 45%,
+    #f0f7f0 100%
+  );
   border-radius: 14px;
   padding: 1.6rem;
-  box-shadow: 0 3px 14px var(--shadow);
-  border: 1px solid var(--border);
+  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.06);
+  border: 1px solid #f0e6d8;
   transition: all 0.3s ease;
   display: flex;
   flex-direction: column;
@@ -221,7 +226,8 @@ body {
 .poem-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-  border-color: var(--saffron);
+  border-color: #e8d5b5;
+}
 }
 
 .poem-card-header {
