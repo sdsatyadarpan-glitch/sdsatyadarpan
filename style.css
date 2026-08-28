@@ -428,17 +428,15 @@ body {
 }
 
 .poem-text {
-  background: linear-gradient(
-    145deg,
-    #fffaf3 0%,
-    #fff7eb 50%,
-    #f8f4e8 100%
-  );
-  padding: 1.8rem 2rem;
+  background: #fffaf3;
+  padding: 2rem 2.5rem;
   border-radius: 12px;
   border: 1px solid #f0e6d0;
   line-height: 1.9;
   white-space: pre-wrap;
+  text-align: left;
+  max-width: 680px;        /* टेक्स्ट की चौड़ाई कंट्रोल करता है */
+  margin: 0 auto;          /* बीच में लाता है */
 }
 }
 
