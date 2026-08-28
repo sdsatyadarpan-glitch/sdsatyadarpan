@@ -438,7 +438,6 @@ body {
   max-width: 680px;        /* टेक्स्ट की चौड़ाई कंट्रोल करता है */
   margin: 0 auto;          /* बीच में लाता है */
 }
-}
 
 /* Multi-column layout for long poems */
 .poem-text.columns-3 {
