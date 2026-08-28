@@ -427,6 +427,12 @@ body {
   margin-bottom: 1.8rem;
 }
 
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .poem-text {
   background: #fffaf3;
   padding: 2rem 2.5rem;
@@ -436,7 +442,8 @@ body {
   white-space: pre-wrap;
   text-align: left;
   max-width: 680px;
-  margin: 0 auto;
+  margin: 1.5rem auto;
+  display: block;
 }
 /* Multi-column layout for long poems */
 .poem-text.columns-3 {
