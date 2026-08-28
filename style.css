@@ -269,6 +269,9 @@ body {
 }.category-tag.sahas {
   background: #E8F5E9;
   color: #2E7D32;
+}.category-tag.jagrukta {
+  background: #E3F2FD;
+  color: #1565C0;
 }
 
 .poem-card {
