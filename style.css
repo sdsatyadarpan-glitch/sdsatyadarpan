@@ -435,8 +435,8 @@ body {
   line-height: 1.9;
   white-space: pre-wrap;
   text-align: left;
-  max-width: 680px;        /* टेक्स्ट की चौड़ाई कंट्रोल करता है */
-  margin: 0 auto;          /* बीच में लाता है */
+  max-width: 680px;
+  margin: 0 auto;
 }
 
 /* Multi-column layout for long poems */
