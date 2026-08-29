@@ -437,13 +437,12 @@ body {
   line-height: 1.9;
   white-space: pre-wrap;
   text-align: left;
-  max-width: 576px;          /* 6 इंच */
+  max-width: 576px;              /* लगभग 6 इंच */
   width: 92%;
   margin: 1.5rem auto;
   display: block;
   box-sizing: border-box;
 }
-
 /* Multi-column layout for long poems */
 .poem-text.columns-3 {
   column-count: 3;
