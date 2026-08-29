@@ -453,6 +453,7 @@ body {
   white-space: pre-wrap;
   line-height: 1.85;
   max-width: 100%;
+  font-size: 1.15rem;
 }
 /* Multi-column layout for long poems */
 .poem-text.columns-3 {
