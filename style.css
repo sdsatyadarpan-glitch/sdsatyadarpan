@@ -437,18 +437,19 @@ body {
 
 .poem-text {
   background: #fffaf3 !important;
-  padding: 1.8rem 3.2rem !important;   /* बाएँ-दाएँ कम पैडिंग */
+  padding: 1.8rem 2.5rem !important;
   border-radius: 12px;
   border: 1px solid #f0e6d0;
   line-height: 1.85;
   white-space: pre-wrap;
-  text-align: left;
+  text-align: left;                 /* या center, जो आपने रखा है */
   max-width: 620px !important;
   min-width: 520px !important;
   width: 90% !important;
   margin: 1rem auto !important;
   display: block !important;
   box-sizing: border-box !important;
+  font-size: 1.15rem;               /* यहाँ साइज़ बढ़ाया गया है */
 }
 /* Multi-column layout for long poems */
 .poem-text.columns-3 {
