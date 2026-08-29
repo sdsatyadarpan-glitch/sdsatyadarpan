@@ -435,13 +435,14 @@ body {
 
 .poem-text {
   background: #fffaf3;
-  padding: 2rem 2.5rem;
+  padding: 2rem 2.2rem;
   border-radius: 12px;
   border: 1px solid #f0e6d0;
   line-height: 1.9;
   white-space: pre-wrap;
   text-align: left;
-  max-width: 680px;
+  max-width: 920px;        /* पहले 680px था, अब बढ़ा दिया */
+  width: 92%;              /* मोबाइल पर अच्छी चौड़ाई के लिए */
   margin: 1.5rem auto;
   display: block;
 }
