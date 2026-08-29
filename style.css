@@ -543,7 +543,7 @@ body {
     width: 100% !important;
     max-width: 100% !important;
 
-    font-size: clamp(0.90rem, 4vw, 1.05rem) !important;
+    font-size: clamp(0.95rem, 4vw, 1.07rem) !important;
     line-height: 1.75 !important;
 
     word-break: normal !important;
@@ -554,7 +554,7 @@ body {
   }
 
   .modal-body h2 {
-    font-size: clamp(1.15rem, 5vw, 1.4rem) !important;
+    font-size: clamp(1.18rem, 5vw, 1.6rem) !important;
     line-height: 1.4 !important;
     margin-bottom: 0.7rem !important;
   }
