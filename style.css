@@ -431,9 +431,24 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 980px;        /* मोडल की अधिकतम चौड़ाई */
-  width: 94%;              /* स्क्रीन के हिसाब से */
+  max-width: 768px;        /* लगभग 8 इंच */
+  width: 94%;
   margin: 1.5rem auto;
+}
+
+.poem-text {
+  background: #fffaf3;
+  padding: 2rem 2.2rem;
+  border-radius: 12px;
+  border: 1px solid #f0e6d0;
+  line-height: 1.9;
+  white-space: pre-wrap;
+  text-align: left;
+  max-width: 576px;        /* लगभग 6 इंच */
+  width: 92%;
+  margin: 1.5rem auto;
+  display: block;
+  box-sizing: border-box;
 }
 
 .poem-text {
