@@ -437,7 +437,7 @@ body {
 
 .poem-text {
   background: #fffaf3 !important;
-  padding: 1.8rem 3.2rem !important;   /* बाएँ-दाएँ ज्यादा पैडिंग */
+  padding: 1.8rem 3.2rem !important;   /* बाएँ-दाएँ कम पैडिंग */
   border-radius: 12px;
   border: 1px solid #f0e6d0;
   line-height: 1.85;
