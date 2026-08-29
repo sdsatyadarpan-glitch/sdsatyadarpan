@@ -437,14 +437,15 @@ body {
 
 .poem-text {
   background: #fffaf3 !important;
-  padding: 1.8rem 2.8rem !important;   /* दोनों तरफ बराबर पैडिंग */
+  padding: 1.8rem 2.5rem !important;
   border-radius: 12px;
   border: 1px solid #f0e6d0;
   line-height: 1.85;
   white-space: pre-wrap;
   text-align: left;
-  max-width: 580px !important;         /* लगभग 6 इंच */
-  width: 92% !important;
+  max-width: 620px !important;
+  min-width: 520px !important;     /* न्यूनतम चौड़ाई फिक्स की */
+  width: 90% !important;
   margin: 1rem auto !important;
   display: block !important;
   box-sizing: border-box !important;
