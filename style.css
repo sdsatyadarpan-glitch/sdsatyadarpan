@@ -431,6 +431,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 980px;        /* मोडल की अधिकतम चौड़ाई */
+  width: 94%;              /* स्क्रीन के हिसाब से */
+  margin: 1.5rem auto;
 }
 
 .poem-text {
@@ -441,8 +444,8 @@ body {
   line-height: 1.9;
   white-space: pre-wrap;
   text-align: left;
-  max-width: 920px;        /* पहले 680px था, अब बढ़ा दिया */
-  width: 92%;              /* मोबाइल पर अच्छी चौड़ाई के लिए */
+  max-width: 920px;
+  width: 100%;
   margin: 1.5rem auto;
   display: block;
 }
