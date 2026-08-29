@@ -442,9 +442,9 @@ body {
   border: 1px solid #f0e6d0;
   line-height: 1.85;
   white-space: pre-wrap;
-  text-align: left;
-  max-width: 620px !important;
-  min-width: 520px !important;     /* न्यूनतम चौड़ाई फिक्स की */
+  text-align: center;                 /* टेक्स्ट बीच में */
+  max-width: 620px !important;        /* लगभग 6 इंच */
+  min-width: 520px !important;
   width: 90% !important;
   margin: 1rem auto !important;
   display: block !important;
