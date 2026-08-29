@@ -1779,7 +1779,9 @@ function openPoem(id) {
     <div class="modal-category">
       <span class="category-tag ${poem.categoryClass}">${poem.category}</span>
     </div>
-    <div class="poem-text">${poem.content}</div>
+    <div class="poem-text">
+      <div class="poem-inner">${poem.content}</div>
+    </div>
     <div class="poem-author">— ‘चमन’</div>
   `;
 
