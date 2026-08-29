@@ -437,19 +437,22 @@ body {
 
 .poem-text {
   background: #fffaf3 !important;
-  padding: 1.8rem 2.5rem !important;
+  padding: 1.8rem 1.5rem !important;
   border-radius: 12px;
   border: 1px solid #f0e6d0;
-  line-height: 1.85;
+  width: 100%;
+  max-width: 620px;          /* 6 इंच लगभग */
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;   /* इनर को बीच में लाता है */
+  box-sizing: border-box;
+}
+
+.poem-inner {
+  text-align: left;
   white-space: pre-wrap;
-  text-align: left;                 /* या center, जो आपने रखा है */
-  max-width: 620px !important;
-  min-width: 520px !important;
-  width: 90% !important;
-  margin: 1rem auto !important;
-  display: block !important;
-  box-sizing: border-box !important;
-  font-size: 1.15rem;               /* यहाँ साइज़ बढ़ाया गया है */
+  line-height: 1.85;
+  max-width: 100%;
 }
 /* Multi-column layout for long poems */
 .poem-text.columns-3 {
