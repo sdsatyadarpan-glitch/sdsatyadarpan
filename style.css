@@ -272,6 +272,9 @@ body {
 }.category-tag.jagrukta {
   background: #E3F2FD;
   color: #1565C0;
+}.category-tag.chautha-stambh {
+  background: #E8EAF6;
+  color: #3949AB;
 }
 }
 }
