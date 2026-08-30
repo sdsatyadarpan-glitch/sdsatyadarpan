@@ -517,7 +517,6 @@ body {
   }
 /* ===== Improved Mobile Fix ===== */
 @media (max-width: 700px) {
-
   .modal-content {
     width: 98% !important;
     max-width: 98% !important;
@@ -530,10 +529,8 @@ body {
     width: 100% !important;
     max-width: 100% !important;
     min-width: 0 !important;
-
     margin: 0.5rem 0 !important;
     padding: 0.8rem 0.5rem !important;
-
     box-sizing: border-box !important;
     overflow-x: auto !important;
     overflow-y: visible !important;
@@ -542,14 +539,11 @@ body {
   .poem-inner {
     width: 100% !important;
     max-width: 100% !important;
-
-    font-size: clamp(0.95rem, 4vw, 1.07rem) !important;
-    line-height: 1.75 !important;
-
+    font-size: clamp(1.05rem, 4.2vw, 1.15rem) !important;  /* ← यहाँ बढ़ाया गया */
+    line-height: 1.8 !important;
     word-break: normal !important;
     overflow-wrap: normal !important;
     hyphens: none !important;
-
     box-sizing: border-box !important;
   }
 
