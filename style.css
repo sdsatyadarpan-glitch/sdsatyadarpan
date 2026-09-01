@@ -284,9 +284,6 @@ body {
 }.category-tag.hind {
   background: #E8F5E9;
   color: #2E7D32;
-}.category-tag.bachpan {
-  background: #FFF8E1;
-  color: #F57F17;
 }
 }
 }
@@ -566,42 +563,5 @@ body {
     font-size: clamp(1.18rem, 5vw, 1.6rem) !important;
     line-height: 1.4 !important;
     margin-bottom: 0.7rem !important;
-/* ===== Top Profile Photo ===== */
-.header-inner {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-
-.top-profile {
-  text-align: center;
-  flex-shrink: 0;
-}
-
-.top-profile-img {
-  width: 70px;
-  height: 70px;
-  object-fit: cover;
-  object-position: center 15%;
-  border-radius: 50%;
-  border: 3px solid #e67e22;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-  display: block;
-}
-
-.top-profile-label {
-  margin-top: 4px;
-  font-size: 0.8rem;
-  color: #e67e22;
-  font-weight: 600;
-}
-
-@media (max-width: 700px) {
-  .top-profile-img {
-    width: 55px;
-    height: 55px;
-  }
-  .top-profile-label {
-    font-size: 0.75rem;
   }
 }
