@@ -354,7 +354,7 @@ body {
   width: 160px;
   height: 160px;
   object-fit: cover;
-  object-position: center top;   /* चेहरा केंद्र में रहे */
+  object-position: center top;
   border-radius: 50%;
   border: 4px solid #e67e22;
   box-shadow: 0 4px 15px rgba(0,0,0,0.18);
@@ -375,16 +375,13 @@ body {
   margin: 0;
 }
 
-/* Mobile */
 @media (max-width: 600px) {
   .profile-img {
     width: 140px;
     height: 140px;
   }
-  
   .about-text {
     font-size: 1rem;
     padding: 0 0.8rem;
   }
-}
 }
