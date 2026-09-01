@@ -564,7 +564,7 @@ body {
     line-height: 1.4 !important;
     margin-bottom: 0.7rem !important;
   }
-}/* ===== About Photo ===== */
+/* ===== About Photo ===== */
 .about-photo {
   text-align: center;
   margin: 1.5rem 0;
@@ -584,4 +584,5 @@ body {
     width: 140px;
     height: 140px;
   }
+}
 }
