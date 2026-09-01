@@ -284,6 +284,9 @@ body {
 }.category-tag.hind {
   background: #E8F5E9;
   color: #2E7D32;
+}.category-tag.bachpan {
+  background: #FFF8E1;
+  color: #F57F17;
 }
 }
 }
