@@ -381,4 +381,22 @@ body {
     height: 140px;
     object-position: center 20%;
   }
+}/* ===== Footer ===== */
+.site-footer {
+  background: #1a1a1a;
+  color: #e67e22;
+  text-align: center;
+  padding: 1.8rem 1rem;
+  margin-top: 3rem;
+}
+
+.footer-content p {
+  margin: 0.4rem 0;
+  font-size: 0.95rem;
+}
+
+.footer-quote {
+  font-size: 0.9rem;
+  opacity: 0.9;
+  margin-top: 0.6rem !important;
 }
