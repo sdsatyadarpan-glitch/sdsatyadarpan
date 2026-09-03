@@ -3938,7 +3938,7 @@ poem39: {
 यहाँ सब कुछ फट से चल जाता ।।`
 },
   poem44: {
-  title: "कवि",
+  title: "कलम",
   category: "कवि",
   categoryClass: "kavi",
   content: `कलम आज बेबस और मायूस है,
