@@ -487,8 +487,8 @@ body {
 }
 
 .poem-author {
-  text-align: left!important;
-  margin-top: 1.1rem;
+  text-align: left;          /* पहले center था */
+  margin-top: 2rem;
   font-weight: 600;
   color: var(--green);
   font-size: 1.05rem;
