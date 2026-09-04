@@ -574,9 +574,9 @@ body {
   /* ===== About Section Photo (Right Side) ===== */
 .about-wrapper {
   display: flex;
-  align-items: center;
+  align-items: flex-start;   /* ऊपर से अलाइन */
   justify-content: space-between;
-  gap: 2.2rem;
+  gap: 1.8rem;
   max-width: 820px;
   margin: 0 auto;
 }
@@ -590,6 +590,7 @@ body {
 
 .about-photo {
   flex-shrink: 0;
+  margin-top: 0.4rem;   /* थोड़ा ऊपर से स्पेस */
 }
 
 .profile-photo {
@@ -603,13 +604,19 @@ body {
   display: block;
 }
 
+/* Mobile */
 @media (max-width: 700px) {
   .about-wrapper {
-    gap: 1.3rem;
+    gap: 1.2rem;
   }
+
   .profile-photo {
-    width: 120px;
-    height: 120px;
+    width: 115px;
+    height: 115px;
+  }
+
+  .about-content {
+    font-size: 0.98rem;
   }
 }
 }
