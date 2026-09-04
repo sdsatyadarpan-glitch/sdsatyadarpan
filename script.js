@@ -4436,7 +4436,7 @@ poem39: {
   poem49: {
   title: "गुटका पाऊच",
   category: "सामाजिक जागरूकता",
-  categoryClass: "samajik jagrukta",
+  categoryClass: "jagrukta",
   content:`खाकर गुटका, पान बहार, 
 कहीं भी थूकता ये आदमी ।।
 पाउच हिला-हिलाकर मुँह में गटक कर, 
