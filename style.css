@@ -358,8 +358,7 @@ body {
   max-width: 720px;
   margin: 0 auto;
   text-align: center;
-  font-size: 1.05rem;
-  color: var(--muted);
+  ...
 }
 
 .about-content p {
