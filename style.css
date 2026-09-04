@@ -487,10 +487,14 @@ body {
 }
 
 .poem-author {
+  display: block !important;
+  width: 100% !important;
   text-align: left !important;
-  margin-top: 2.5rem;
+  margin-top: 1.8rem !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
   font-weight: 600;
-  color: var(--green);
+  color: var(--green) !important;
   font-size: 1.05rem;
 }
 
