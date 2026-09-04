@@ -571,12 +571,12 @@ body {
     font-size: clamp(1.18rem, 5vw, 1.6rem) !important;
     line-height: 1.4 !important;
     margin-bottom: 0.7rem !important;
-  /* ===== About Section Photo (Right Side) ===== */
+ /* ===== About Section Photo (Right Side) ===== */
 .about-wrapper {
   display: flex;
-  align-items: flex-start;   /* ऊपर से अलाइन */
+  align-items: flex-start;
   justify-content: space-between;
-  gap: 1.8rem;
+  gap: 2rem;
   max-width: 820px;
   margin: 0 auto;
 }
@@ -590,33 +590,27 @@ body {
 
 .about-photo {
   flex-shrink: 0;
-  margin-top: 0.4rem;   /* थोड़ा ऊपर से स्पेस */
+  margin-top: 6px;
 }
 
 .profile-photo {
-  width: 144px;
-  height: 144px;
-  border-radius: 50%;
-  object-fit: cover;
-  object-position: center 20%;
-  border: 3px solid #FF9933;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.13);
-  display: block;
+  width: 144px !important;
+  height: 144px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  object-position: center 20% !important;
+  border: 3px solid #FF9933 !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.13) !important;
+  display: block !important;
 }
 
-/* Mobile */
 @media (max-width: 700px) {
   .about-wrapper {
     gap: 1.2rem;
   }
-
   .profile-photo {
-    width: 115px;
-    height: 115px;
-  }
-
-  .about-content {
-    font-size: 0.98rem;
+    width: 115px !important;
+    height: 115px !important;
   }
 }
 }
