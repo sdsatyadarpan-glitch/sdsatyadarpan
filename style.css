@@ -488,7 +488,7 @@ body {
 
 .poem-author {
   text-align: right !important;
-  margin-top: 1.3rem;
+  margin-top: 1.2rem !important;
   font-weight: 600;
   color: var(--green);
   font-size: 1.05rem;
