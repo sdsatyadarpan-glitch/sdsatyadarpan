@@ -1,4 +1,4 @@
-ko// Current year in footer
+// Current year in footer
 document.getElementById('year').textContent = new Date().getFullYear();
 
 // Poem data
