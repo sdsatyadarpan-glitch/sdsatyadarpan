@@ -1,4 +1,4 @@
-// Current year in footer
+ko// Current year in footer
 document.getElementById('year').textContent = new Date().getFullYear();
 
 // Poem data
@@ -4448,7 +4448,7 @@ poem39: {
 
 फटकी मुँह में जाते ही, महाशय,
 सातवें आसमान पर है चढ़ जाता ।
-थूक-थूक कर जनाब खूब है इठलाता,
+थूक-थूक कर जनाब खूब इठलाता,
 देखकर जिसे नवाब भी है झुक जाता ।
 मुँह की लाली देखकर महाशय की,  
 पिशाच भी अपने बाप की तौबा कर लेता ।।
