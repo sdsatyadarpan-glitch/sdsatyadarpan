@@ -293,6 +293,9 @@ body {
 }.category-tag.naya-daur {
   background: #E3F2FD;
   color: #1565C0;
+}.category-tag.paryavaran {
+  background: linear-gradient(135deg, #2e7d32, #66bb6a);
+  color: white;
 }
 }
 }
