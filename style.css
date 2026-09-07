@@ -296,9 +296,6 @@ body {
 }.category-tag.paryavaran {
   background: linear-gradient(135deg, #2e7d32, #66bb6a);
   color: white;
-}.category-tag.aadmi {
-  background: linear-gradient(135deg, #5d4037, #8d6e63);
-  color: white;
 }
 }
 }
