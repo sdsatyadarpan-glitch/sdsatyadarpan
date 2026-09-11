@@ -299,6 +299,9 @@ body {
 }.category-tag.aadmi {
   background: linear-gradient(135deg, #5d4037, #8d6e63);
   color: white;
+}.category-tag.shiksha {
+  background: linear-gradient(135deg, #1565c0, #42a5f5);
+  color: white;
 }
 }
 }
