@@ -6371,7 +6371,7 @@ poem39: {
   poem83: {
   title: "सरहदें",
   category: "सामाजिक जागरूकता",
-  categoryClass: "samajik-jagrukta",
+  categoryClass: "jagrukta",
   content:`दुनिया भर की सरहदें चाक-चौबंद हुईं
 सरहदें नहीं, मानो लोहे की दीवारें हैं खड़ी हुईं ।  
 आदमी, आदमी के बीच गजों की दूरी कायम हुईं
