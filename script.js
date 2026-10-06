@@ -402,7 +402,7 @@ const poems = {
   },
 
   poem3: {
-    title: "प्यार है सबसे बड़ा विजेता",
+    title: "प्यार है सबसे बड़ा सिकन्दर",
     category: "सामाजिक",
     categoryClass: "samajik",
     content:`इतनी बुद्धि, इतना ज्ञान, आदमी आज है समेटे हुए
